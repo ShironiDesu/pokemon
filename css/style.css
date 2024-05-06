@@ -1,0 +1,36 @@
+@import url("https://fonts.cdnfonts.com/css/pokemon-solid");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  cursor: url("/images/Pokemon\ Pokeball\ ac.png"), auto;
+}
+a:hover,
+button:hover,
+.pokemon-card:hover,
+.poke-name:hover,
+.button-prev:hover,
+.button-next:hover,
+input:hover {
+  cursor: url("/images/Pokemon\ Pokeball\ hover.png"), auto;
+}
+
+.wrapper {
+  font-family: "Pokemon Solid", sans-serif;
+  margin: auto;
+  width: 90%;
+  height: 100vh;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}

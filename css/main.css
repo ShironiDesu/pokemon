@@ -1,0 +1,134 @@
+.main {
+  margin-top: 50px;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+}
+.pokedex-section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+.pokedex-list {
+  display: flex;
+  /* margin: auto; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+}
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  padding: 20px;
+  color: #365fac;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  cursor: pointer;
+}
+
+.pokemon-id {
+  align-self: flex-end;
+}
+.pokemon-name {
+  text-transform: capitalize;
+}
+.pokemon-card:hover {
+  color: #ffcc03;
+  box-shadow: rgba(220, 22, 4, 0.738) 0px 0px 0px 3px;
+}
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+.game-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+  border: #ffcc03 3px dashed;
+}
+.game-card img {
+  width: 200px;
+}
+.poke-names {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  padding: 10px;
+  border-top: #ffcc03 2px solid;
+}
+.poke-name {
+  /* animation: shake 0.5s infinite; */
+  cursor: pointer;
+  text-transform: capitalize;
+  color: red;
+
+  width: 100px;
+  text-align: center;
+  /* padding: 10px; */
+}
+#result {
+  color: #365fac;
+}
+.pokemons-remaining {
+  color: #365fac;
+}
+#lives {
+  color: #365fac;
+}
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
+}
+.poke-name:hover {
+  color: #365fac;
+}
+.shake-element:hover {
+  background-color: #ffcc03;
+  position: relative;
+  animation: shake 0.5s infinite;
+}
+.hide {
+  display: none;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5px, 5px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  75% {
+    transform: translate(-5px, -5px);
+  }
+  100% {
+    transform: translate(5px, 5px);
+  }
+}
