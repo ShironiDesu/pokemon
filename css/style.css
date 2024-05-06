@@ -4,10 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
   cursor: url("/images/Pokemon\ Pokeball\ ac.png"), auto;
 }
+
 a:hover,
 button:hover,
 .pokemon-card:hover,

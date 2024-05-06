@@ -378,5 +378,130 @@ audio {
     gap: 20px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1100px) {
+  .pokemon-info-center {
+    width: 200px;
+  }
+  .left-top-text h2 {
+    font-size: 20px;
+  }
+  .cries h5 {
+    font-size: 15px;
+  }
+  .pokemon-info-left-bot h5 {
+    font-size: 15px;
+  }
+  .pokemon-info-block audio {
+    width: 200px;
+  }
+  .type-info div {
+    font-size: 18px;
+  }
+  .pokemon-info-right-bot label {
+    font-size: 10px;
+  }
+  .pokemon-info-block {
+    margin-top: 20px;
+    align-items: center;
+    /* justify-content: center; */
+  }
+}
+@media screen and (max-width: 768px) {
+  .pokemon-info-block {
+    align-items: center;
+  }
+  .pokemon-info-center {
+    align-self: center;
+    width: 120px;
+    padding-bottom: 100px;
+  }
+  .pokemon-info-left-top {
+    gap: 40px;
+  }
+  .left-top-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cries {
+    display: none;
+  }
+  .abilities-info {
+    display: none;
+  }
+  .type-info {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 554px) {
+  .pokemon-info-block {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-top-text {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* margin-right: 30px; */
+  }
+  .pokemon-info-left {
+    align-items: center;
+    height: 10%;
+  }
+  .pokemon-info-left-bot {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-top-text h2 {
+    margin: 0;
+  }
+  .pokemon-info-center {
+    width: 200px;
+    padding: 0;
+  }
+  .pokemon-info-right-bot {
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px; */
+    display: none;
+  }
+
+  .pokemon-info-right {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .pokemon-info-right-top {
+    align-items: center;
+    justify-content: center;
+  }
+  .type-info {
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    gap: 10px;
+  }
+  .header {
+    gap: 10px 40px;
+  }
+  .button-next,
+  .button-prev {
+    width: 50px;
+    height: 30px;
+  }
 }
